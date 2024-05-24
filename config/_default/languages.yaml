@@ -3,10 +3,41 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
-en:
-  languageCode: en-us
+ru:
+  languageCode: ru-ru
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/ru
+  menu:
+    main:
+    - name: Биография
+      url: /
+      weight: 10
+    - name: Papers
+      url: /#papers
+      weight: 11
+    - name: Talks
+      url: /#talks
+      weight: 12
+    - name: News
+      url: /#news
+      weight: 99
+    - name: Posts
+      url: post/
+      weight: 13
+    - name: Experience
+      url: experience/
+      weight: 20
+    - name: Projects
+      url: projects/
+      weight: 30
+    - name: Teaching
+      url: teaching/
+      weight: 40
+
+en:
+  languageCode: en-Us
+  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  contentDir: content/en
 
 # Uncomment the lines below to configure your website in a second language.
 #zh:
