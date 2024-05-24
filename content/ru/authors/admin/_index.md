@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Ivan Trushin
+title: Иван Трушин
 
 # Name pronunciation (optional)
 name_pronunciation: Chien Shiung Wu
